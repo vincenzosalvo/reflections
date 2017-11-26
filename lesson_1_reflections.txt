@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced
+
+	It helped me a lot because the diff allowed us to focus only on the lines that are different ignoring the others, this means I hadn’t to fully read and understand the two files separately.
+	Reasoning for comparison can therefore help to speed up the process of identification and correction of errors.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	
+	This is helpful to diff between different versions of a file and to roll back to a safe version in case of problems. The programmer can therefore enjoy greater freedom when changing/developing a lot of code since he doesn’t have to worry about causing irrevocable damages.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros:  Manually choosing when creating a commit allows to have versions that have a meaning at one point in time. This cannot be guaranteed having versions automatically saved.
+	Cons: A commit should be done every time for each logical change. Since this is defined by the programmer and it could be subjective, the commit could be too much big or short. Furthermore, an automatically saved version can be precious in case of failures.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because a commit is related to a logical change and this can affect multiple objects.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	git log shows information about previous commits, in reverse chronological order, that have occurred in a project. Git diff can be used to compare two commits.
+
+How might using version control make you more confident to make changes that could break something?
+It makes me more confident to make experiments in the code. If it doesn't work, I can always go back to the root version. 
+
+	Now that you have your workspace set up, what do you want to try using Git for?
+	I want to try using Git for the Google Developer Challenge and for sharing my own projects. 
