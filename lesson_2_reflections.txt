@@ -1,5 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	When a repository is initialized, using the git init command, an empty repository is created thanks to a .git folder.
+	This folder is automatically created and will allow the files tracking. No initial commit is made and the master branch is checked-out by default,
+	files are listed as untracked file.
+	It is required to start using version control in a project.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
