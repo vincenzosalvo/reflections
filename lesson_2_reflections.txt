@@ -44,6 +44,9 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches can be helpful in such situations when you have to develop and test new features and you don’t want to affect the production code.
+	So you can experiment new features on a different branch and merge them into the stable master branch at a later time.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
