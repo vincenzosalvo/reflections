@@ -12,7 +12,7 @@ What value do you think it offers?
 	Repository is a set of committed versions stored and tracked.
 	On the contrary the working directory is where you are locally working and could contain also not tracked files.
 	Only files currently in staging can be commited.
-	
+
 	The staging area value is the opportunity to commit only those files which are needed to commit as a logical change.
 
 
@@ -36,6 +36,10 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	To make sure you have one commit per logical change you should stage files per logical change.
+	Indeed the commit will contain only what is in the staging area.
+	Consider the git diff --staged command for comparing staging and repository areas.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
