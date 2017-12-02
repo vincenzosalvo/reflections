@@ -8,6 +8,32 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The staging area is an intermediate level between the working directory and the repository where the files ready to be committed are added.
+	Repository is a set of committed versions stored and tracked.
+	On the contrary the working directory is where you are locally working and could contain also not tracked files.
+	Only files currently in staging can be commited.
+	
+	The staging area value is the opportunity to commit only those files which are needed to commit as a logical change.
+
+
+	Useful commands:
+
+		git init             # initialize repository
+		git add <file>       # add file from work directory to staging area
+		git status           # check Git Status (Gives you a hint of difference between work area, staging area, and repository)
+		git reset <file>     # unstaged the file
+		git diff             # compare work directory and staging.
+		git diff --staged    # compare staging and repository.
+		git log --graph --oneline master <branch-name>
+		git checkout <branch-name>
+		git checkout -b <new-branch-name>   # this is the same as
+		                                    #   git branch <new-branch-name>
+		                                    #   git checkout <new-branch-name>
+		git show              # compare latest commit with parent.
+		git show commit_id    # compare with parent.
+		git branch -d <branch-name>   # to delete the branch.
+		git merge --abort
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
