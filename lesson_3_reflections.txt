@@ -20,7 +20,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-
+	Using fetch I update my local copy of the remote repository (e.g. inside origin/master).
+	The benefit of such operation is that it allows to work on the remote version locally and without conflicting with my own branches.
+	Then I can perform calmly the merge locally.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
