@@ -27,7 +27,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-
+	We could use a cloud service to collaborate without Git or GitHub.
+	However this could be feasible only if different developers can work separately on different files.
+	It would be harder, indeed, working in parallel on the same files and handling the merge conflicts.
+	Not to mention the complication for file tracking and branching.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
