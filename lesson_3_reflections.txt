@@ -45,12 +45,12 @@ master?  What benefits does each approach have?
 	
 Useful commands:
 
-	git remote  														# Show all remote locations for the repository
-	git remote -v   													# Output the remote locations with verbose information (fetch and push urls)
-	git remote add <name of the remote (e.g. origin)> <URL remote>		# Add a new remote location for the current repository
-	git push <remote to send changes to> <branch to push> 				# Upload changes to the remote
-	git fetch origin  													# Update a local copy of origin/master branch without affecting the local master branch
-	git diff master origin/master 										# Examine the differences after git fetch
-	git merge origin/master master 										# Merge the changes
-	git pull origin master												# = Git fetch origin + git merge master origin/master
+	git remote							# Show all remote locations for the repository
+	git remote -v   						# Output the remote locations with verbose information (fetch and push urls)
+	git remote add <name of the remote (e.g. origin)> <URL remote>	# Add a new remote location for the current repository
+	git push <remote to send changes to> <branch to push> 		# Upload changes to the remote
+	git fetch origin  						# Update a local copy of origin/master branch without affecting the local master branch
+	git diff master origin/master 					# Examine the differences after git fetch
+	git merge origin/master master 					# Merge the changes
+	git pull origin master						# = Git fetch origin + git merge master origin/master
 	
